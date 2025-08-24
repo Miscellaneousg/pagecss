@@ -23,6 +23,7 @@ body{
 }
 
 .header,.information,.quotes,.actions,.footer{
+    outline:1px solid black;
     flex:1;
     padding:1px;
     align-items: center;
@@ -110,3 +111,43 @@ button{
 .information .container{
     flex-direction: column;
 }
+
+.information{
+    padding: 50px 0;
+}
+
+h2{
+    flex:1;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.image-box{
+    display: flex;
+    padding:0 60px;
+    gap:8px;
+}
+
+.image-box .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+}
+
+.image{
+    border:2px solid #3882f6;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+.box .text{
+    outline: 1px solid black;
+    color: #596370;
+    text-align: center;
+}
+
+
